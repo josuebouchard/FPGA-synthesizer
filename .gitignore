@@ -1,0 +1,50 @@
+# ==========================================
+# Quartus Prime Compilation Outputs & Folders
+# ==========================================
+db/
+incremental_db/
+output_files/
+hc_output/
+greybox_tmp/
+simulation/
+hps_isw_handoff/
+.qsys_edit/
+
+# ==========================================
+# Generated Bitstreams and Programming Files
+# ==========================================
+*.sof
+*.pof
+*.ttf
+*.rbf
+*.hex
+*.jic
+*.ekp
+*.map
+
+# ==========================================
+# Temporary Report and Log Files
+# ==========================================
+*.rpt
+*.summary
+*.done
+*.pin
+*.qws
+*.bak
+*.chg
+*.smart.log
+*.htm
+*.html
+*.txt
+*.smsg
+
+# ==========================================
+# Simulation Tool Artifacts (Questa / ModelSim)
+# ==========================================
+# Ignore default work libraries and transcripts
+work/
+msim_transcript
+transcript
+vsim.wlf
+*.mpf
+*.mti
